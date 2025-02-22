@@ -1,0 +1,1437 @@
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: February 22, 2025 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system">
+  
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="A highly-customizable Hugo résumé theme powered by Hugo Blox Builder." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/" />
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/themes/blue.min.css" />
+  
+
+  
+  
+    
+    <link href="/dist/wc.min.css" rel="stylesheet" />
+  
+
+  
+  
+  
+
+  
+
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Alfan Risqi" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
+
+  <link rel="canonical" href="http://localhost:1313/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@GetResearchDev" />
+    <meta property="twitter:creator" content="@GetResearchDev" />
+  
+  <meta property="og:site_name" content="Alfan Risqi" />
+  <meta property="og:url" content="http://localhost:1313/" />
+  <meta property="og:title" content="Home | Alfan Risqi" />
+  <meta property="og:description" content="A highly-customizable Hugo résumé theme powered by Hugo Blox Builder." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_645fa481986063ef.png" />
+    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_645fa481986063ef.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2025-02-22T00:00:00&#43;00:00" />
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite","url": "http://localhost:1313/"
+}
+</script>
+
+
+  
+
+
+  <title>Home | Alfan Risqi</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header ">
+      
+      
+      
+        
+        
+        
+          <div class="absolute right-0 top-0 m-3 bg-primary-100 dark:bg-primary-700 rounded-full p-2 z-10">
+  <div class="h-[24px] w-[24px]">
+    <button class="theme-toggle" accesskey="t" title="" aria-label="Display preferences">
+      <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" class="dark:hidden">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </svg>
+      <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+           fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      </svg>
+    </button>
+  </div>
+</div>
+
+        
+      
+    </div>
+    <div class="page-body ">
+      
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-resume-biography" class="relative hbb-section blox-resume-biography  " style="padding: 4rem 0 4rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full bg-gray-200 dark:bg-gray-900 flex flex-wrap items-center justify-center">
+    <div class="w-full bg-white rounded dark:bg-gray-800">
+      <div class="h-2/4 sm:h-64 overflow-hidden w-full">
+        <img class="w-full object-cover"
+             src="/media/antenna_hu_875b41a1da731c3f.webp"
+             width="540" height="300"
+             alt="" />
+      </div>
+    </div>
+  </div>
+
+
+
+<div id="profile" class="resume-biography flex justify-center items-center flex-col dark:text-white">
+  
+
+  <div class="avatar-wrapper -mt-[105px]">
+    
+    <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1" src="/author/avatar_hu_cde9c98c890e1616.jpg" alt=""
+         width="150" height="150">
+    <span class="avatar-emoji">⚛️</span>
+  </div>
+  
+
+  <div class="text-3xl font-bold mb-2 mt-6"><ruby>
+        <rb></rb>
+        <rt>Alfan Risqi Wahyudi</rt>
+      </ruby></div>
+
+  <h3 class="font-semibold mb-1">Undergraduate Student</h3>
+
+  
+  <div class="mb-2">
+    <a href="https://web.polines.ac.id/en_us/" target="_blank" rel="noopener">
+    <div>Semarang State Polytechnic</div>
+    </a>
+  </div>
+  
+
+  <ul class="network-icon dark:text-zinc-100">
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:aminwayering123@gmail.com"  aria-label="at-symbol"
+         >
+        <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"/></svg>
+      </a>
+    </li>
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/alfan459" target="_blank" rel="noopener" aria-label="brands/github"
+         >
+        <svg style="height: 1.5rem;" fill="currentColor" viewBox="3 3 18 18"><path d="M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z"></path></svg>
+      </a>
+    </li>
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/alfan-risqi-wahyudi-5178b2213/" target="_blank" rel="noopener" aria-label="brands/linkedin"
+         >
+        <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+      </a>
+    </li>
+    
+  </ul>
+
+  
+  <div class="pt-2 d-flex justify-content-center prose prose-slate lg:prose-xl dark:prose-invert">
+    <div class="bio-text" style="text-align: justify; font-size: 0.8em;">
+      <p>I am an undergradute student majoring Telecommunication Engineering at Semarang State Polytechnic. My research area focuses on IoT devices, edge computing, computer network, topology, routing, internet measurement, and network scanning.</p>
+
+    </div>
+  </div>
+  
+
+  
+  <a href="uploads/resume.pdf" target="_blank" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+    <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
+    <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+  </svg> Resume</a>
+  
+
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-resume-experience" class="relative hbb-section blox-resume-experience  " style="padding: 4rem 0 4rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto">
+
+
+
+
+
+<div class="flex flex-col lg:gap-x-6 w-100 px-6 sm:px-0 ">
+
+
+<div class="w-full">
+  <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">Experience</h3>
+  <ol class="relative border-s border-gray-200 dark:border-gray-700">
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Hardware Engineering
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">OmahIoT</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          February 2024 –
+        
+        
+          June 2024
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><p>Responsibilities include:</p>
+<ul>
+<li>Build IoT Devices for monitoring hydroponics plant.</li>
+<li>Troubleshooting and reconfigure IoT network topology</li>
+<li>Design and implementation new methods for data sampling.</li>
+</ul></div>
+
+      
+
+    </li>
+    
+  </ol>
+</div>
+
+
+
+<div class="w-full">
+  <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">Education</h3>
+    <ol class="relative border-s border-gray-200 dark:border-gray-700">
+      
+      <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
+            </svg>
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">BSc Telecommunication Engineering
+
+        </h3>
+        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">Semarang State Polytechnic</span>
+        <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+          
+            September 2021 –
+          
+          
+            September 2025
+          
+        </time>
+        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert"><p>GPA: 3.85/4.0</p>
+<p>Courses included:</p>
+<ul>
+<li>Computer Network</li>
+<li>Algorithm and Programming</li>
+<li>Embedded System</li>
+<li>Data Communication</li>
+<li>Web and Database</li>
+</ul>
+</div>
+
+        
+
+      </li>
+      
+    </ol>
+</div>
+
+
+</div>
+
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-resume-skills" class="relative hbb-section blox-resume-skills  " style="padding: 4rem 0 4rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Skills
+  </div>
+
+  
+</div>
+
+<div class="flex flex-col lg:flex-row items-center max-w-prose mx-auto gap-3 px-6 md:px-0">
+
+  
+  
+  
+  <div class="w-full lg:w-1/2">
+    <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">
+      Software
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+      <span class="skills-icon inline-block">
+        <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#ff7f0e" d="M112.39 6.389a6.707 6.707 0 0 0-2.585.416c-3.428 1.266-5.232 5.008-4.033 8.357c1.2 3.35 4.952 5.039 8.38 3.772v-.002c3.427-1.267 5.233-5.007 4.032-8.354c-.901-2.513-3.237-4.092-5.793-4.19zM72.6 33.059a19.327 19.327 0 0 0-6.506 1.207c-9.84 3.636-15.023 14.377-11.576 23.992c3.445 9.615 14.217 14.461 24.054 10.826c9.841-3.634 15.024-14.378 11.578-23.992c-2.69-7.512-9.853-12.113-17.55-12.033m-51.856 31.67a6.693 6.693 0 0 0-2.586.416c-3.429 1.267-5.233 5.009-4.033 8.357c1.201 3.35 4.952 5.038 8.379 3.771c3.429-1.267 5.231-5.008 4.031-8.357c-.9-2.511-3.234-4.09-5.79-4.188zm71.807 36.39a9.22 9.22 0 0 0-3.553.572c-4.71 1.74-7.191 6.882-5.543 11.483c1.65 4.603 6.806 6.923 11.514 5.183h.002c4.71-1.74 7.191-6.883 5.54-11.484c-1.237-3.452-4.446-5.62-7.96-5.754"/><path fill="#2c7fb8" d="M112.709.008a13.345 13.345 0 0 0-9.396 3.433c-4.613 4.16-5.611 10.839-2.715 15.94l-7.776 7.002a32.376 32.376 0 0 0-18.312-6.574a32.996 32.996 0 0 0-12.766 2.033C45.761 27.748 36.87 44.689 41.047 60.588l-9.69 3.584c-2.254-3.508-6.105-5.663-10.254-5.83a13.196 13.196 0 0 0-3.302.34l-1.979-5.58c3.314-2.07 4.918-6.184 3.586-9.944l.002-.002c-1.151-3.246-4.174-5.293-7.463-5.437a8.554 8.554 0 0 0-3.318.515c-4.386 1.604-6.742 6.412-5.207 10.743c1.33 3.753 5.161 5.898 9.013 5.359l1.965 5.543c-5.7 2.998-8.565 9.74-6.373 15.855c2.39 6.664 9.893 10.022 16.641 7.528c5.843-2.16 9.321-8.016 8.6-13.873l9.66-3.569c6.355 13.711 21.803 20.877 36.687 17.283l3.998 11.155a18.588 18.588 0 0 0-8.922 10.601L69.414 104a8.206 8.206 0 0 0-6.896-7.797c-4.576-.747-8.992 2.32-9.864 6.861c-.871 4.54 2.185 8.885 6.762 9.631c3.973.649 7.82-1.578 9.336-5.15l5.166.842c-.304 2.62-.05 5.331.892 7.96c3.334 9.304 13.808 13.984 23.231 10.503c9.421-3.481 14.453-13.842 11.117-23.147a17.286 17.286 0 0 0-5.021-7.295l10.59-18.412l-.05-.027c3.783.788 7.795-1.098 9.536-4.725c2.034-4.158.212-9.228-4.002-11.078h-.004a8.405 8.405 0 0 0-3.25-.732h-.002c-2.648-.059-5.227 1.14-6.924 3.244l-6.678-3.207c2.243-6.597 2.403-13.899-.097-20.875A30.885 30.885 0 0 0 96.95 30.14l7.393-6.659c4.856 3.372 11.67 3.015 16.299-1.162c5.34-4.816 5.85-13.017 1.056-18.226c-2.398-2.605-5.661-3.972-8.99-4.086zm-.135 3.455c2.442.08 4.823 1.086 6.569 2.982c3.49 3.793 3.156 9.705-.827 13.297c-3.981 3.593-10.012 3.37-13.504-.422c-3.49-3.793-3.158-9.705.827-13.299a9.861 9.861 0 0 1 6.935-2.556zm-38.312 23.09c10.022.362 19.097 6.525 22.611 16.332c4.687 13.076-2.338 27.727-15.857 32.722v.002h-.002c-13.522 4.995-28.092-1.607-32.778-14.681c-4.685-13.075 2.34-27.727 15.86-32.723a26.522 26.522 0 0 1 10.166-1.652M11.857 39.959c2.415.093 4.59 1.584 5.428 3.947l-.002.002c1.118 3.152-.583 6.676-3.853 7.871c-3.272 1.198-6.768-.402-7.885-3.554c-1.118-3.153.585-6.677 3.857-7.873h.002a6.4 6.4 0 0 1 2.453-.393m9.12 21.836c3.723.131 7.08 2.42 8.384 6.057c1.739 4.849-.864 10.29-5.898 12.15c-5.034 1.86-10.428-.59-12.166-5.44c-1.74-4.849.865-10.29 5.898-12.15a9.886 9.886 0 0 1 3.782-.617m95.92 1.89a6.18 6.18 0 0 1 2.393.538l.008.002c3.054 1.335 4.38 4.991 2.89 8.03l-.003.01c-1.487 3.1-5.214 4.481-8.307 3.098l-.008-.004c-3.054-1.335-4.38-4.993-2.89-8.033l.003-.008c1.116-2.325 3.49-3.682 5.912-3.633zm-14.96 1.33l6.446 2.882c-.83 3.22.386 6.662 3.035 8.622l-10.252 17.823a18.214 18.214 0 0 0-8.101-2.28a18.42 18.42 0 0 0-1.956.116L86.894 80.42a33.295 33.295 0 0 0 15.043-15.404zm-9.05 31.87c5.197.183 9.89 3.375 11.709 8.453c2.428 6.77-1.206 14.37-8.235 16.967c-7.03 2.597-14.562-.824-16.988-7.594c-2.428-6.772 1.206-14.37 8.236-16.965a13.797 13.797 0 0 1 5.278-.861M60.898 98.35c.414-.016.834.007 1.256.076h.002c3.379.553 5.55 3.646 4.909 6.984c-.642 3.341-3.908 5.615-7.288 5.063c-3.381-.552-5.552-3.646-4.91-6.985c.562-2.923 3.133-5.026 6.031-5.138"/></svg>
+      </span>
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Networking
+        <p class="skills-description">Nmap, Wireshark, TCP-DUMP, MRTG, Cisco Packet Tracer, GNS3</p>
+      </span>
+      
+      <div class="skills-wrapper" >
+        <div class="skills-percent" style="width: 87%; "></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+      <span class="skills-icon inline-block">
+        <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><g fill="#00979c" fill-rule="evenodd"><path d="M.3 66.5v-9.6c.2-.1.2-.3.2-.5c3-13.1 11.2-21 24.2-24.1c1.1-.3 2.3-.2 3.4-.6h6.4c.1.2.4.1.6.1c6.4.7 12.2 3 17.3 7c4.4 3.3 7.8 7.5 10.9 12c.4.6.6.6 1 0c1.8-2.6 3.7-5.1 5.9-7.4c5.3-5.7 11.7-9.7 19.5-11.1c1.1-.3 2.4-.2 3.5-.6h6.2c.1.2.3.1.5.1c1.9.2 3.7.6 5.5 1.1c13.4 3.9 22.9 16.2 22.1 30.1c-.6 11.7-6.5 20.1-16.8 25.4c-5.1 2.8-10.7 3.5-16.5 3.4c-7.6-.1-14.2-2.7-19.9-7.7c-4-3.5-7.1-7.7-10-12.1c-.4-.6-.6-.5-1 .1c-1.8 2.7-3.7 5.4-5.9 8c-3.9 4.4-8.4 8-14 9.9c-6.9 2.4-13.9 2.5-20.9.6c-10.1-2.9-17-9.3-20.8-19.1c-.6-1.6-.9-3.4-1.4-5m31.8 14.7c5.7.2 10.6-1.7 14.8-5.6c4.3-4 7.4-9 10.5-13.9c.1-.3.1-.5-.1-.8c-2.6-4.1-5.3-8.2-8.9-11.6c-6.9-6.6-15-8.8-24.1-5.9c-7.5 2.5-12.3 7.8-13.4 15.8c-1.1 7.5 1.8 13.5 7.8 18c4 2.9 8.5 4.1 13.4 4m63.4 0c2.2 0 4.4-.1 6.5-.7c7.9-2.4 13.1-7.3 14.6-15.5c1.5-8.1-1.6-14.6-8.4-19.2c-7.5-5.2-18.4-4.7-26 1c-5.1 3.8-8.5 8.9-11.9 14.2c-.2.3-.1.5 0 .8c2.7 4.3 5.4 8.6 8.9 12.3c4.4 4.7 9.7 7.4 16.3 7.1m0 0"/><path d="M32 58.5c3.2 0 6.5.1 9.7 0c.8 0 .9.2.9 1c-.1.9-.1 1.8 0 2.7c.1.8-.1 1-1 1H28.8c-2.2 0-4.4-.1-6.6 0c-.7 0-.9-.2-.9-1c.1-.9.1-1.8 0-2.8c0-.7.2-.9.9-.9c3.2.1 6.5 0 9.8 0m63-6.4c.8 0 1.6.1 2.3 0c.5 0 .7.2.7.7c-.1 1.4 0 2.8-.1 4.2c0 .7.2.9.9.9c1.3-.1 2.7 0 4.1-.1c.6 0 .8.1.8.8v4.6c0 .5-.2.7-.7.7c-1.4-.1-2.8 0-4.3-.1c-.6 0-.8.2-.8.8c.1 1.4 0 2.8.1 4.2c0 .6-.2.9-.8.9c-1.5-.1-3-.1-4.5 0c-.6 0-.8-.2-.8-.8c.1-1.5 0-2.9.1-4.4c0-.5-.2-.7-.7-.7c-1.4.1-2.8 0-4.2.1c-.8 0-.9-.3-.9-.9c0-1.4.1-2.8 0-4.2c-.1-.8.3-1 1-1c1.4.1 2.7 0 4.1.1c.5 0 .7-.2.7-.7c-.1-1.4 0-2.9-.1-4.3c0-.6.2-.8.8-.8c.8.1 1.5 0 2.3 0m29.852-27.623c-.133.199-.18.265-.223.332c-.242.363-.055 1.097-.664 1.086c-.54-.012-.403-.684-.594-1.051c-.05-.098-.11-.188-.277-.461c0 .504.008.789 0 1.078c-.008.195.035.441-.274.457c-.312.016-.293-.234-.297-.43c-.007-.68-.007-1.355-.003-2.031c0-.23-.036-.496.324-.504c.27-.004.504-.015.617.336c.144.43.195.91.527 1.324c.317-.402.371-.867.492-1.293c.102-.347.317-.37.598-.37c.356.003.34.253.344.488c.004.68.004 1.355-.004 2.035c-.004.191.023.445-.281.449c-.305 0-.282-.242-.285-.442c-.008-.289 0-.574 0-1.003m-3.712-1.532c.087 0 .18-.015.262 0c.325.063.828-.187.934.2c.144.543-.426.27-.668.386c-.242.117-.195.332-.2.528c-.011.468-.007.937-.007 1.406c0 .258-.05.473-.383.46c-.305-.01-.293-.234-.293-.437a36.975 36.975 0 0 1-.004-1.316c.012-.375.016-.727-.523-.676c-.188.016-.352-.039-.352-.277c0-.328.254-.262.442-.27c.265-.012.527-.004.793-.004zm0 0"/></g></svg>
+      </span>
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Arduino
+        <p class="skills-description">IoT devices and programming</p>
+      </span>
+      
+      <div class="skills-wrapper" >
+        <div class="skills-percent" style="width: 90%; "></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+      <span class="skills-icon inline-block">
+        <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#00618A" d="M117.688 98.242c-6.973-.191-12.297.461-16.852 2.379c-1.293.547-3.355.559-3.566 2.18c.711.746.82 1.859 1.387 2.777c1.086 1.754 2.922 4.113 4.559 5.352c1.789 1.348 3.633 2.793 5.551 3.961c3.414 2.082 7.223 3.27 10.504 5.352c1.938 1.23 3.859 2.777 5.75 4.164c.934.684 1.563 1.75 2.773 2.18v-.195c-.637-.812-.801-1.93-1.387-2.777l-2.578-2.578c-2.52-3.344-5.719-6.281-9.117-8.719c-2.711-1.949-8.781-4.578-9.91-7.73l-.199-.199c1.922-.219 4.172-.914 5.949-1.391c2.98-.797 5.645-.59 8.719-1.387l4.164-1.187v-.793c-1.555-1.594-2.664-3.707-4.359-5.152c-4.441-3.781-9.285-7.555-14.273-10.703c-2.766-1.746-6.184-2.883-9.117-4.363c-.988-.496-2.719-.758-3.371-1.586c-1.539-1.961-2.379-4.449-3.566-6.738c-2.488-4.793-4.93-10.023-7.137-15.066c-1.504-3.437-2.484-6.828-4.359-9.91c-9-14.797-18.687-23.73-33.695-32.508c-3.195-1.867-7.039-2.605-11.102-3.57l-6.543-.395c-1.332-.555-2.715-2.184-3.965-2.977C16.977 3.52 4.223-3.312.539 5.672C-1.785 11.34 4.016 16.871 6.09 19.746c1.457 2.012 3.32 4.273 4.359 6.539c.688 1.492.805 2.984 1.391 4.559c1.438 3.883 2.695 8.109 4.559 11.695c.941 1.816 1.98 3.727 3.172 5.352c.727.996 1.98 1.438 2.18 2.973c-1.227 1.715-1.297 4.375-1.984 6.543c-3.098 9.77-1.926 21.91 2.578 29.137c1.383 2.223 4.641 6.98 9.117 5.156c3.918-1.598 3.043-6.539 4.164-10.902c.254-.988.098-1.715.594-2.379v.199l3.57 7.133c2.641 4.254 7.324 8.699 11.297 11.699c2.059 1.555 3.68 4.242 6.344 5.152v-.199h-.199c-.516-.805-1.324-1.137-1.98-1.781c-1.551-1.523-3.277-3.414-4.559-5.156c-3.613-4.902-6.805-10.27-9.711-15.855c-1.391-2.668-2.598-5.609-3.77-8.324c-.453-1.047-.445-2.633-1.387-3.172c-1.281 1.988-3.172 3.598-4.164 5.945c-1.582 3.754-1.789 8.336-2.375 13.082c-.348.125-.195.039-.398.199c-2.762-.668-3.73-3.508-4.758-5.949c-2.594-6.164-3.078-16.09-.793-23.191c.59-1.836 3.262-7.617 2.18-9.316c-.516-1.691-2.219-2.672-3.172-3.965c-1.18-1.598-2.355-3.703-3.172-5.551c-2.125-4.805-3.113-10.203-5.352-15.062c-1.07-2.324-2.875-4.676-4.359-6.738c-1.645-2.289-3.484-3.977-4.758-6.742c-.453-.984-1.066-2.559-.398-3.566c.215-.684.516-.969 1.191-1.191c1.148-.887 4.352.297 5.547.793c3.18 1.32 5.832 2.578 8.527 4.363c1.289.855 2.598 2.512 4.16 2.973h1.785c2.789.641 5.914.195 8.523.988c4.609 1.402 8.738 3.582 12.488 5.949c11.422 7.215 20.766 17.48 27.156 29.734c1.027 1.973 1.473 3.852 2.379 5.945c1.824 4.219 4.125 8.559 5.941 12.688c1.816 4.113 3.582 8.27 6.148 11.695c1.348 1.801 6.551 2.766 8.918 3.766c1.66.699 4.379 1.43 5.949 2.379c3 1.809 5.906 3.965 8.723 5.945c1.402.992 5.73 3.168 5.945 4.957zm-88.605-75.52c-1.453-.027-2.48.156-3.566.395v.199h.195c.695 1.422 1.918 2.34 2.777 3.566l1.98 4.164l.199-.195c1.227-.867 1.789-2.25 1.781-4.363c-.492-.52-.562-1.164-.992-1.785c-.562-.824-1.66-1.289-2.375-1.98zm0 0"/></svg>
+      </span>
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        MySQL
+        <p class="skills-description">Main database</p>
+      </span>
+      
+      <div class="skills-wrapper" >
+        <div class="skills-percent" style="width: 80%; "></div>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  
+  
+  <div class="w-full lg:w-1/2">
+    <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">
+      Programming
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+      <span class="skills-icon inline-block">
+        <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="none" d="M4.24 4.24h119.53v119.53H4.24z"/><path fill="#293138" d="M109.01 28.64L71.28 6.24c-2.25-1.33-4.77-2-7.28-2s-5.03.67-7.28 2.01l-37.74 22.4c-4.5 2.67-7.28 7.61-7.28 12.96v44.8c0 5.35 2.77 10.29 7.28 12.96l37.73 22.4c2.25 1.34 4.76 2 7.28 2c2.51 0 5.03-.67 7.28-2l37.74-22.4c4.5-2.67 7.28-7.62 7.28-12.96V41.6c0-5.34-2.77-10.29-7.28-12.96M79.79 98.59l.06 3.22c0 .39-.25.83-.55.99l-1.91 1.1c-.3.15-.56-.03-.56-.42l-.03-3.17c-1.63.68-3.29.84-4.34.42c-.2-.08-.29-.37-.21-.71l.69-2.91c.06-.23.18-.46.34-.6c.06-.06.12-.1.18-.13c.11-.06.22-.07.31-.03c1.14.38 2.59.2 3.99-.5c1.78-.9 2.97-2.72 2.95-4.52c-.02-1.64-.9-2.31-3.05-2.33c-2.74.01-5.3-.53-5.34-4.57c-.03-3.32 1.69-6.78 4.43-8.96l-.03-3.25c0-.4.24-.84.55-1l1.85-1.18c.3-.15.56.04.56.43l.03 3.25c1.36-.54 2.54-.69 3.61-.44c.23.06.34.38.24.75l-.72 2.88c-.06.22-.18.44-.33.58a.77.77 0 0 1-.19.14c-.1.05-.19.06-.28.05c-.49-.11-1.65-.36-3.48.56c-1.92.97-2.59 2.64-2.58 3.88c.02 1.48.77 1.93 3.39 1.97c3.49.06 4.99 1.58 5.03 5.09c.05 3.44-1.79 7.15-4.61 9.41m26.34-60.5l-35.7 22.05c-4.45 2.6-7.73 5.52-7.74 10.89v43.99c0 3.21 1.3 5.29 3.29 5.9c-.65.11-1.32.19-1.98.19c-2.09 0-4.15-.57-5.96-1.64l-37.73-22.4c-3.69-2.19-5.98-6.28-5.98-10.67V41.6c0-4.39 2.29-8.48 5.98-10.67l37.74-22.4c1.81-1.07 3.87-1.64 5.96-1.64s4.15.57 5.96 1.64l37.74 22.4c3.11 1.85 5.21 5.04 5.8 8.63c-1.27-2.67-4.09-3.39-7.38-1.47"/><path fill="#4FA847" d="m99.12 90.73l-9.4 5.62c-.25.15-.43.31-.43.61v2.46c0 .3.2.43.45.28l9.54-5.8c.25-.15.29-.42.29-.72v-2.17c0-.3-.2-.42-.45-.28"/></svg>
+      </span>
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Bash
+        <p class="skills-description">For network program</p>
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #f0bf23">
+        <div class="skills-percent" style="width: 90%; background-color: #eeac02"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+      <span class="skills-icon inline-block">
+        <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><linearGradient id="deviconPython0" x1="70.252" x2="170.659" y1="1237.476" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5A9FD4"/><stop offset="1" stop-color="#306998"/></linearGradient><linearGradient id="deviconPython1" x1="209.474" x2="173.62" y1="1098.811" y2="1149.537" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFD43B"/><stop offset="1" stop-color="#FFE873"/></linearGradient><path fill="url(#deviconPython0)" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007c-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521c-2.268 9.405-2.368 15.275 0 25.096c1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837c-4.244-.706-8.645-1.027-12.866-1.008M50.037 9.557c2.55 0 4.634 2.117 4.634 4.721c0 2.593-2.083 4.69-4.634 4.69c-2.56 0-4.633-2.097-4.633-4.69c-.001-2.604 2.073-4.721 4.633-4.721" transform="translate(0 10.26)"/><path fill="url(#deviconPython1)" d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547c7.816 2.297 15.312 2.713 24.665 0c6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519c2.578-7.735 2.467-15.174 0-25.096c-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692c0 2.602-2.074 4.719-4.634 4.719c-2.55 0-4.633-2.117-4.633-4.719c0-2.595 2.083-4.692 4.633-4.692" transform="translate(0 10.26)"/><radialGradient id="deviconPython2" cx="1825.678" cy="444.45" r="26.743" gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#B8B8B8" stop-opacity=".498"/><stop offset="1" stop-color="#7F7F7F" stop-opacity="0"/></radialGradient><path fill="url(#deviconPython2)" d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416c-18.276 0-33.092-2.873-33.092-6.416c0-3.544 14.815-6.417 33.092-6.417c18.275 0 33.091 2.872 33.091 6.417" opacity=".444"/></svg>
+      </span>
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Python
+        <p class="skills-description">For machine learning and processing data</p>
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #f0bf23">
+        <div class="skills-percent" style="width: 80%; background-color: #eeac02"></div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+      <span class="skills-icon inline-block">
+        <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#00599c" d="M118.766 95.82c.89-1.543 1.441-3.28 1.441-4.843V36.78c0-1.558-.55-3.297-1.441-4.84l-55.32 31.94Zm0 0"/><path fill="#004482" d="m68.36 126.586l46.933-27.094c1.352-.781 2.582-2.129 3.473-3.672l-55.32-31.94L8.12 95.82c.89 1.543 2.121 2.89 3.473 3.672l46.933 27.094c2.703 1.562 7.13 1.562 9.832 0Zm0 0"/><path fill="#659ad2" d="M118.766 31.941c-.891-1.546-2.121-2.894-3.473-3.671L68.359 1.172c-2.703-1.563-7.129-1.563-9.832 0L11.594 28.27C8.89 29.828 6.68 33.66 6.68 36.78v54.196c0 1.562.55 3.3 1.441 4.843L63.445 63.88Zm0 0"/><path fill="#fff" d="M63.445 26.035c-20.867 0-37.843 16.977-37.843 37.844s16.976 37.844 37.843 37.844c13.465 0 26.024-7.247 32.77-18.91L79.84 73.335c-3.38 5.84-9.66 9.465-16.395 9.465c-10.433 0-18.922-8.488-18.922-18.922c0-10.434 8.49-18.922 18.922-18.922c6.73 0 13.017 3.629 16.39 9.465l16.38-9.477c-6.75-11.664-19.305-18.91-32.77-18.91zM92.88 57.57v4.207h-4.207v4.203h4.207v4.207h4.203V65.98h4.203v-4.203h-4.203V57.57zm15.766 0v4.207h-4.204v4.203h4.204v4.207h4.207V65.98h4.203v-4.203h-4.203V57.57z"/></svg>
+      </span>
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        C++
+        <p class="skills-description">For code IoT hardware etc</p>
+      </span>
+      
+      <div class="skills-wrapper" style="border-color: #f0bf23">
+        <div class="skills-percent" style="width: 80%; background-color: #eeac02"></div>
+      </div>
+      
+    </div>
+    
+  </div>
+
+</div>
+
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-resume-awards" class="relative hbb-section blox-resume-awards  " style="padding: 4rem 0 4rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Certificates
+  </div>
+
+  
+
+<div class="w-full flex flex-col gap-6">
+
+
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">CCNA Enterprise Networking, Security, and Automation</h5>
+  
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    Cisco &#8729;
+    
+      November 2024
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose">The CCNA: Enterprise Networking, Security, and Automation certification validates an individual&rsquo;s foundation in scalable network architectures, dynamic routing, security threat mitigation, wide-area networks, virtualization, and network automation. This certification covers network security concepts and introduces network virtualization and automation. It demonstrates the ability to configure, troubleshoot, and secure enterprise network devices, along with understanding how APIs and configuration management tools facilitate network automation. The CCNA Enterprise also includes security, automation, and programmability, serving as a foundation for further advanced studies.</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">CCNAv7 Switching, Routing, and Wireless Essentials</h5>
+  
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    Cisco &#8729;
+    
+      December 2023
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose">The CCNAv7: Switching, Routing, and Wireless Essentials (SRWE) covers the architecture, components, and operations of routers and switches in small networks, while also introducing wireless LANs (WLANs) and security concepts. It focuses on switching technologies and router operations that support small-to-medium-sized business networks. Participants will configure and troubleshoot basic networks, identify and mitigate LAN security threats, and configure and secure a basic WLAN. It also teaches how to configure and troubleshoot routers and switches for advanced functionality using security best practices, resolving common issues with protocols in both IPv4 and IPv6 networks. Completing the SRWE course prepares individuals for the CCNA certification exam.</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Junior Network Administrator</h5>
+  
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    BNSP &#8729;
+    
+      November 2023
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose">The Junior Network Administrator certification from BNSP (Badan Nasional Sertifikasi Profesi) is an official Indonesian certification that recognizes an individual&rsquo;s competence in basic-level network administration. This certification demonstrates that the individual has met the national standards set by BNSP for the job of Junior Network Administrator. It typically covers competencies like network addressing design, wireless network installation, switch configuration, routing configuration within and between autonomous systems. Having this certification offers official recognition of competence, enhances job competitiveness, opens career opportunities, and strengthens professional credibility within Indonesia.</div>
+  
+
+  
+</div>
+  
+  
+</div>
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by text-center">
+    © 2025 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by text-center">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+
+</footer>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

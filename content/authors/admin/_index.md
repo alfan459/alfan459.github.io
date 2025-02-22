@@ -1,172 +1,132 @@
 ---
 # Display name
-title: 吳健雄
+title: ''
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Alfan Risqi Wahyudi
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Alfan Risqi
+last_name: Wahyudi
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: ⚛️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: Undergraduate Student 
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: Semarang State Polytechnic
+    url: https://web.polines.ac.id/en_us/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: 'mailto:aminwayering123@gmail.com'
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/alfan459
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.linkedin.com/in/alfan-risqi-wahyudi-5178b2213/
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: BSc Telecommunication Engineering
+    institution: Semarang State Polytechnic
+    date_start: 2021-09-01
+    date_end: 2025-09-01 
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+      GPA: 3.85/4.0
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Computer Network 
+      - Algorithm and Programming
+      - Embedded System 
+      - Data Communication 
+      - Web and Database
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Hardware Engineering
+    company_name: OmahIoT
+    company_url: https://omahiot.net/
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2024-02-01
+    date_end: 2024-06-01
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Build IoT Devices for monitoring hydroponics plant.
+      - Troubleshooting and reconfigure IoT network topology
+      - Design and implementation new methods for data sampling.
+  
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Software
     items:
-      - name: Python
-        description: ''
+      - name: Networking
+        description: Nmap, Wireshark, TCP-DUMP, MRTG, Cisco Packet Tracer, GNS3
+        percent: 87
+        icon: devicon/networkx
+      - name: Arduino
+        description: IoT devices and programming
+        percent: 90
+        icon: devicon/arduino
+      - name: MySQL
+        description: Main database
         percent: 80
-        icon: devicon/python
-      - name: RStudio
-        description: ''
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
-        description: ''
-        percent: 40
-        icon: devicon/pytorch
-  - name: Hobbies
+        icon: devicon/mysql
+  - name: Programming
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
+      - name: Bash
+        description: For network program
+        percent: 90
+        icon: devicon/bash
+      - name: Python
+        description: For machine learning and processing data
         percent: 80
-        icon: camera
+        icon: devicon/python
+      - name: C++
+        description: For code IoT hardware etc
+        percent: 80
+        icon: devicon/cplusplus
+
 
 languages:
   - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 40
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: CCNA Enterprise Networking, Security, and Automation
+    url: ''
+    date: '2024-11-01'
+    awarder: Cisco
+    icon: ''
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+     The CCNA: Enterprise Networking, Security, and Automation certification validates an individual's foundation in scalable network architectures, dynamic routing, security threat mitigation, wide-area networks, virtualization, and network automation. This certification covers network security concepts and introduces network virtualization and automation. It demonstrates the ability to configure, troubleshoot, and secure enterprise network devices, along with understanding how APIs and configuration management tools facilitate network automation. The CCNA Enterprise also includes security, automation, and programmability, serving as a foundation for further advanced studies. 
+  - title: CCNAv7 Switching, Routing, and Wireless Essentials
+    url: ''
+    date: '2023-12-01'
+    awarder: Cisco
+    icon: ''
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+     The CCNAv7: Switching, Routing, and Wireless Essentials (SRWE) covers the architecture, components, and operations of routers and switches in small networks, while also introducing wireless LANs (WLANs) and security concepts. It focuses on switching technologies and router operations that support small-to-medium-sized business networks. Participants will configure and troubleshoot basic networks, identify and mitigate LAN security threats, and configure and secure a basic WLAN. It also teaches how to configure and troubleshoot routers and switches for advanced functionality using security best practices, resolving common issues with protocols in both IPv4 and IPv6 networks. Completing the SRWE course prepares individuals for the CCNA certification exam.
+  - title: Junior Network Administrator
+    url: ''
+    date: '2023-11-21'
+    awarder: BNSP
+    icon: ''
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      The Junior Network Administrator certification from BNSP (Badan Nasional Sertifikasi Profesi) is an official Indonesian certification that recognizes an individual's competence in basic-level network administration. This certification demonstrates that the individual has met the national standards set by BNSP for the job of Junior Network Administrator. It typically covers competencies like network addressing design, wireless network installation, switch configuration, routing configuration within and between autonomous systems. Having this certification offers official recognition of competence, enhances job competitiveness, opens career opportunities, and strengthens professional credibility within Indonesia.
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am an undergradute student majoring Telecommunication Engineering at Semarang State Polytechnic. My research area focuses on IoT devices, edge computing, computer network, topology, routing, internet measurement, and network scanning.
